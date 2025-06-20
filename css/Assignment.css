@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3, 58);
+    color: white;
+    padding: 20px 40px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px;
+    background-color: rgb(231, 231, 241);
+}
+
+.hero-image img{
+    width: 400px;
+    height: auto;
+}
+
+.hero-text h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.hero-text p{
+    margin-bottom: 25px;
+}
+
+.hero button{
+    padding: 15px 30px;
+    background-color: rgb(6, 6, 143);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.hero button:hover{
+    background-color: rgb(5, 5, 73);
+    cursor: pointer;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.feature{
+    flex: 1 1 250px;
+    background-color: rgb(214, 214, 239);
+    padding: 40px 20px;
+    border-radius: 5px; 
+}
+
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 60px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.product-gallery h2{
+    text-align: center;
+}
+
+.product-card{
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    transition: .3s ease;
+}
+
+.product-card:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.last-section{
+    background-color: blue;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.last-section h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.last-section p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.last-section form{
+     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 18%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.last-section button{
+    height: 35px;
+    width: 8%;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
